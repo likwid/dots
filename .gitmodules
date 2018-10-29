@@ -1,3 +1,9 @@
 [submodule "dependencies/fonts"]
 	path = dependencies/fonts
 	url = https://github.com/powerline/fonts
+[submodule "dependencies/spaceship"]
+	path = dependencies/spaceship
+	url = https://github.com/denysdovhan/spaceship-prompt.git
+[submodule "dependencies/dotbot"]
+	path = dependencies/dotbot
+	url = https://github.com/anishathalye/dotbot.git
