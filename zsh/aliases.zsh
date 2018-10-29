@@ -1,20 +1,10 @@
+# neovim
+alias vim='nvim'
+
 # ansible
 alias ap='ansible-playbook'
 alias agx='ansible-galaxy'
 alias av='ansible-vault'
-
-# code and projects
-alias mycode='~/Dropbox/Code'
-alias gh='mycode && github.com'
-alias me='gh && likwid'
-alias dti='gh && dtinteractive'
-alias ghe='mycode && ghe.coxautoinc.com'
-alias gheme='ghe && jeff-gonzalez'
-alias des='ghe && data-engineering-services'
-alias ds='ghe && data-solutions'
-alias wrk='mycode && github.dev.dealertrack.com'
-alias inventory='wrk && inventory'
-alias bb='mycode && bitbucket.org/likwid'
 
 # dotfiles shortcuts
 alias ez='vim ~/.zshrc'

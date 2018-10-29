@@ -29,16 +29,12 @@ ui = true
 [push]
 default = simple
 
-[core]
-excludesfile = /Users/jeff.gonzalez/.gitignore_global
+#[core]
+#excludesfile = ~/.gitignore_global
 
 # Allow local customizations in the .gitconfig_local file
 [include]
 path = ~/.gitconfig.local
-
-[mergetool "sourcetree"]
-cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-trustExitCode = true
 
 [url "ssh://git@github.com:22/likwid/"]
 insteadOf = me://

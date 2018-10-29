@@ -14,6 +14,8 @@
     ~/.zshrc.local: zshrc.local
     ~/.zsh: zsh/
     ~/.oh-my-zsh: dependencies/oh-my-zsh/
+    ~/.config/nvim: nvim
+    ~/.config/nvim/autoload/plug.vim: dependencies/vim-plug/plug.vim
     #~/.tmux.conf: tmux.conf
     #~/.vim: vim
     #~/.vimrc: vimrc
