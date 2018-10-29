@@ -50,6 +50,7 @@ path = .gitconfig_work
 
 [includeIf "gitdir:~/src/github.com/likwid/"]
 path = .gitconfig_personal
+
 [user]
-	name = Jeff Gonzalez
-	email = likwid@gmail.com
+name = Jeff Gonzalez
+email = likwid@gmail.com

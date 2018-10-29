@@ -8,11 +8,11 @@
 - link:
     /usr/local/share/zsh/site-functions/prompt_spaceship_setup: dependencies/spaceship/spaceship.zsh
     ~/.asdf: dependencies/asdf
-    ~/.gitconfig: gitconfig
-    ~/.gitignore_global: gitignore_global
-    ~/.zshrc: zshrc
-    ~/.zshrc.local: zshrc.local
+    ~/.gitconfig: git/gitconfig
+    ~/.gitignore_global: git/gitignore_global
     ~/.zsh: zsh/
+    ~/.zshrc: ~/.zsh/zshrc
+    ~/.zshrc.local: ~/.zsh/zshrc.local
     ~/.oh-my-zsh: dependencies/oh-my-zsh/
     ~/.config/nvim: nvim
     ~/.config/nvim/autoload/plug.vim: dependencies/vim-plug/plug.vim
