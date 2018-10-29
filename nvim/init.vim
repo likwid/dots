@@ -44,6 +44,9 @@ set encoding=utf-8
 " Set the title of the iterm tab
 set title
 
+"Disable remote history
+let g:netrw_dirhistmax = 0
+
 " Menu completion
 set wildmenu
 set wildmode=list:longest,full
