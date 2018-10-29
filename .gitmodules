@@ -7,3 +7,6 @@
 [submodule "dependencies/dotbot"]
 	path = dependencies/dotbot
 	url = https://github.com/anishathalye/dotbot.git
+[submodule "dependencies/oh-my-zsh"]
+	path = dependencies/oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git

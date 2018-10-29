@@ -1,0 +1,23 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
+- link:
+    /usr/local/share/zsh/site-functions/prompt_spaceship_setup: dependencies/spaceship/spaceship.zsh
+    ~/.gitconfig: gitconfig
+    ~/.gitignore_global: gitignore_global
+    ~/.zshrc: zshrc
+    ~/.zshrc.local: zshrc.local
+    ~/.zsh: zsh/
+    ~/.oh-my-zsh: dependencies/oh-my-zsh/
+    #~/.tmux.conf: tmux.conf
+    #~/.vim: vim
+    #~/.vimrc: vimrc
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  #- [sudo cp hclfmt /usr/local/bin]
+
