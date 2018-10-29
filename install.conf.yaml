@@ -7,6 +7,7 @@
 
 - link:
     /usr/local/share/zsh/site-functions/prompt_spaceship_setup: dependencies/spaceship/spaceship.zsh
+    ~/.asdf: dependencies/asdf
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
     ~/.zshrc: zshrc
@@ -19,5 +20,10 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  #- [sudo cp hclfmt /usr/local/bin]
+  - [asdf plugin-add erlang]
+  - [asdf plugin-add elixir]
+  - [asdf plugin-add nodejs]
+  - [asdf plugin-add python]
+  - [asdf plugin-add packer]
+  - [asdf plugin-add terraform]
 

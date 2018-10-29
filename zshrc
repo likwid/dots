@@ -13,10 +13,14 @@ autoload -U compinit && compinit
 autoload -U promptinit; promptinit
 prompt spaceship
 
+# Enable asdf version manager
+test -e $HOME/.asdf/asdf.sh && source $HOME/.asdf/asdf.sh
+
 # Enable autocompletes
 test -e /usr/local/share/zsh/site-functions/_aws && source /usr/local/share/zsh/site-functions/_aws
 test -e /usr/local/share/zsh/site-functions/_tig && source /usr/local/share/zsh/site-functions/_tig
 test -e /usr/local/share/zsh/site-functions/_lein && source /usr/local/share/zsh/site-functions/_lein
+test -e $HOME/.asdf/completions/asdf.bash && source $HOME/.asdf/completions/asdf.bash
 
 [ -s ~/.zshrc.local ] && source ~/.zshrc.local
 
