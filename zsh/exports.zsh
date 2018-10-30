@@ -20,10 +20,8 @@ else
     export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 fi
 
-#export PATH=$PATH:$GOPATH:~/bin
 if [[ -a /usr/local/bin/vim ]]; then
   export EDITOR=/usr/local/bin/vim
 else
   export EDITOR=/usr/bin/vim
 fi
-
