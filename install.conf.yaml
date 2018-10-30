@@ -13,6 +13,7 @@
     ~/.zsh: zsh/
     ~/.zshrc: ~/.zsh/zshrc
     ~/.zshrc.local: ~/.zsh/zshrc.local
+    ~/.zsh/themes/spaceship.zsh-theme: dependencies/spaceship/spaceship.zsh
     ~/.oh-my-zsh: dependencies/oh-my-zsh/
     ~/.config/nvim: nvim
     ~/.config/nvim/autoload/plug.vim: dependencies/vim-plug/plug.vim

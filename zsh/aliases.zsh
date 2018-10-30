@@ -39,6 +39,7 @@ alias tml='tmux ls'
 alias tmn='tmux new -s'
 alias tma='tmux attach -t'
 
+# DevOps (Cox)
 function devops_tmux_new {
   tmux -S /opt/tmux/$USER new
   chown $USER:devops /opt/tmux/$USER
