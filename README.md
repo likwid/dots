@@ -2,7 +2,7 @@
 
 My newer dotfiles
 
-### Pre-requisites ###
+### Prerequisites ###
 
 zsh
 
