@@ -16,3 +16,6 @@
 [submodule "dependencies/vim-plug"]
 	path = dependencies/vim-plug
 	url = https://github.com/junegunn/vim-plug.git
+[submodule "dependencies/nord-iterm2"]
+	path = dependencies/nord-iterm2
+	url = https://github.com/arcticicestudio/nord-iterm2.git

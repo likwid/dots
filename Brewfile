@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 tap 'caskroom/cask'
 tap 'caskroom/versions'
+tap 'getantibody/tap'
 
 # Install Java as a prereq
 cask 'java'
@@ -8,6 +9,7 @@ cask 'java'
 brew 'ansible'
 brew 'editorconfig'
 brew 'elixir'
+brew 'antibody'
 brew 'golang'
 brew 'haskell-stack'
 brew 'hub'
