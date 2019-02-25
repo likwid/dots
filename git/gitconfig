@@ -39,17 +39,14 @@ path = ~/.gitconfig.local
 [url "ssh://git@github.com:22/likwid/"]
 insteadOf = me://
 
-[url "ssh://git@ghe.coxautoinc.com/"]
-insteadOf = ghe://
+[url "ssh://git@git@github.com:22/pizzahutdigital/"]
+insteadOf = phd://
 
-[url "ssh://git@git-ssh.peerfit.com:1022/peerfit/"]
-insteadOf = pf://
+[includeIf "gitdir:~/yum/projects/go/src/github.com/pizzahutdigital/**"]
+path = ~/.gitconfig_work
 
-[includeIf "gitdir:~/src/git.peerfit.com/"]
-path = .gitconfig_work
-
-[includeIf "gitdir:~/src/github.com/likwid/"]
-path = .gitconfig_personal
+[includeIf "gitdir:~/yum/projects/go/src/github.com/likwid/**"]
+path = ~/.gitconfig_personal
 
 [user]
 name = Jeff Gonzalez
