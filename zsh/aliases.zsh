@@ -1,6 +1,10 @@
 # neovim
 alias vim='nvim'
 
+# gcloud
+alias gcloud='~/yum/tools/google-cloud-sdk/bin/gcloud'
+alias gsutil='~/yum/tools/google-cloud-sdk/bin/gsutil'
+
 # ansible
 alias ap='ansible-playbook'
 alias agx='ansible-galaxy'

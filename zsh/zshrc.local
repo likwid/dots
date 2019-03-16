@@ -4,9 +4,14 @@
 # nvm
 [ -s ~/.nvm_profile ] && source ~/.nvm_profile
 
-#linux brew
+# linux brew
 [ -s ~/.linuxbrew_profile ] && source ~/.linuxbrew_profile
-
 [ -s ~/.zsh/aliases.zsh ] && source ~/.zsh/aliases.zsh
 [ -s ~/.zsh/exports.zsh ] && source ~/.zsh/exports.zsh
-[ -s ~/.zsh_myenv ] && source ~/.zsh_myenv
+
+# ASDF Versioning Tool
+export ASDF_DIR=/usr/local/opt/asdf
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+
+# [ -s ~/.zsh_myenv ] && source ~/.zsh_myenv
