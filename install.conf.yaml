@@ -6,27 +6,38 @@
 - clean: ['~']
 
 - link:
-    /usr/local/share/zsh/site-functions/prompt_spaceship_setup: dependencies/spaceship/spaceship.zsh
     ~/.asdf: dependencies/asdf
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
     ~/.zsh: zsh/
     ~/.zshrc: ~/.zsh/zshrc
     ~/.zshrc.local: ~/.zsh/zshrc.local
-    ~/.zsh/themes/spaceship.zsh-theme: dependencies/spaceship/spaceship.zsh
     ~/.oh-my-zsh: dependencies/oh-my-zsh/
     ~/.config/nvim: nvim
     ~/.config/nvim/autoload/plug.vim: dependencies/vim-plug/plug.vim
     ~/.tmux.conf: tmux.conf
-    #~/.vim: vim
-    #~/.vimrc: vimrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [asdf plugin-add erlang]
-  - [asdf plugin-add elixir]
-  - [asdf plugin-add nodejs]
-  - [asdf plugin-add python]
-  - [asdf plugin-add packer]
-  - [asdf plugin-add terraform]
+  - ./osx/configure.sh
 
+- brewfile:
+    file: Brewfile
+
+- asdf:
+    - plugin: python
+      url: https://github.com/danhper/asdf-python.git
+    - plugin: nodejs
+      url: https://github.com/asdf-vm/asdf-nodejs.git
+    - plugin: ruby
+      url: https://github.com/asdf-vm/asdf-ruby.git
+    - plugin: elixir
+      url: https://github.com/asdf-vm/asdf-elixir.git
+    - plugin: golang
+      url: https://github.com/kennyp/asdf-golang
+    - plugin: rust
+      url: https://github.com/code-lever/asdf-rust
+    - plugin: packer
+      url: https://github.com/Banno/asdf-hashicorp
+    - plugin: terraform
+      url: https://github.com/Banno/asdf-hashicorp

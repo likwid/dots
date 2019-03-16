@@ -19,3 +19,9 @@
 [submodule "dependencies/nord-iterm2"]
 	path = dependencies/nord-iterm2
 	url = https://github.com/arcticicestudio/nord-iterm2.git
+[submodule "dependencies/dotbot-brewfile"]
+	path = dependencies/dotbot-brewfile
+	url = https://github.com/sobolevn/dotbot-brewfile.git
+[submodule "dependencies/dotbot-asdf"]
+	path = dependencies/dotbot-asdf
+	url = https://github.com/sobolevn/dotbot-asdf.git
