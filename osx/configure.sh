@@ -247,6 +247,16 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 # Disable smart quotes as it’s annoying for messages that contain code
 defaults write com.apple.messageshelper.MessageController SOInputLineSettings -dict-add "automaticQuoteSubstitutionEnabled" -bool false
 
+# Disable natural scroll
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+
+# Enable three finger swipe gesture
+defaults -currentHost write NSGlobalDomain com.apple.trackpad.threeFingerSwipeGesture -int 1
+
+# Enable 3-finger drag. (Moving with 3 fingers in any window “chrome” moves the window.)
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
+
 ################################################################################
 # End of file
 
