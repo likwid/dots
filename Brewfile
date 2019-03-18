@@ -27,29 +27,26 @@ brew 'openssl'
 brew 'tmux'
 brew 'tig'
 brew 'tree'
-brew 'vim', args: ["--override-system-vi"]
+brew 'vim'
 brew 'wget'
 
 cask '1password'
 cask 'alfred'
 cask 'atom'
 cask 'dash'
-cask 'dropbox'
+cask 'dropbox-beta'
 cask 'firefox'
 cask 'keybase'
 cask 'gitter'
 cask 'google-chrome'
 cask 'google-cloud-sdk'
-cask 'gpg-suite'
-cask 'insomnia'
 cask 'iterm2'
+cask 'slack'
 cask 'skype'
 cask 'spotify'
 cask 'vagrant'
 
 mas 'Cinch', id: 412529613
 mas 'DaisyDisk', id: 411643860
-mas 'Jettison', id: 447430809
-#mas 'Microsoft Remote Desktop', id: 129503466
+mas 'Microsoft Remote Desktop', id: 129503466
 mas 'Pixelmator', id: 407963104
-mas 'Slack', id: 803453959
