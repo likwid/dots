@@ -250,9 +250,6 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 # Disable natural scroll
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
-# Enable three finger swipe gesture
-defaults -currentHost write NSGlobalDomain com.apple.trackpad.threeFingerSwipeGesture -int 1
-
 # Enable 3-finger drag. (Moving with 3 fingers in any window “chrome” moves the window.)
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
