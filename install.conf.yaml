@@ -6,27 +6,15 @@
 - clean: ['~']
 
 - link:
-    #/usr/local/share/zsh/site-functions/prompt_spaceship_setup: dependencies/spaceship/spaceship.zsh
-    ##~/.asdf: dependencies/asdf
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
     ~/.gitconfig_work: git/gitconfig_work
     ~/.gitconfig_personal: git/gitconfig_personal
     ~/.zsh: zsh/
     ~/.zshrc.local: zsh/zshrc.local
-    #~/.zsh/themes/spaceship.zsh-theme: dependencies/spaceship/spaceship.zsh
-    #~/.oh-my-zsh: dependencies/oh-my-zsh/
     ~/.config/nvim: nvim
     ~/.config/nvim/autoload/plug.vim: dependencies/vim-plug/plug.vim
     ~/.tmux.conf: tmux.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  #- [asdf plugin-add erlang]
-  #- [asdf plugin-add elixir]
-  #- [asdf plugin-add nodejs]
-  #- [asdf plugin-add python]
-  #- [asdf plugin-add packer]
-  #- [asdf plugin-add terraform]
-  #- [asdf plugin-add vault]
-
