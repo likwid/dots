@@ -14,4 +14,5 @@ export ASDF_DIR=/usr/local/opt/asdf
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
 
-# [ -s ~/.zsh_myenv ] && source ~/.zsh_myenv
+source $HOME/.asdf/asdf.sh
+source $HOME/.asdf/completions/asdf.bash

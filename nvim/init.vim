@@ -2,10 +2,10 @@
 call plug#begin('~/.config/nvim/plugged')
 
 " Autocomplete via deoplete
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-  let g:deoplete#enable_at_startup = 1
-  " use tab for completion
-  inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
+"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"  let g:deoplete#enable_at_startup = 1
+"  " use tab for completion
+"  inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
 " Multiple syntax schemes
 Plug 'sheerun/vim-polyglot'
@@ -13,7 +13,7 @@ Plug 'sheerun/vim-polyglot'
 " Execute code checks, find mistakes, in the background
 Plug 'neomake/neomake'
   " Run Neomake when I save any buffer
-  augroup localneomake
+   augroup localneomake
     autocmd! BufWritePost * Neomake
   augroup END
 
@@ -26,6 +26,12 @@ Plug 'slashmili/alchemist.vim'
 Plug 'mhinz/vim-mix-format'
   let g:mix_format_on_save = 1
   let g:mix_format_options = '--check-equivalent'
+
+" Tern for Javascript
+Plug 'ternjs/tern_for_vim', { 'do': 'npm install && npm install -g tern' }
+
+"Plug 'Shougo/deoplete.nvim', { 'do': function('DoRemote') }
+"Plug 'carlitux/deoplete-ternjs'
 
 call plug#end()
 
@@ -113,3 +119,22 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 if filereadable(expand('~/.vimrc.local'))
     source ~/.vimrc.local
 endif
+
+" Neomake
+call neomake#configure#automake('w')
+
+" Deoplete
+let g:deoplete#enable_at_startup = 1
+let g:deoplete#enable_ignore_case = 1
+let g:deoplete#enable_smart_case = 1
+let g:deoplete#enable_camel_case = 1
+let g:deoplete#enable_refresh_always = 1
+let g:deoplete#max_abbr_width = 0
+let g:deoplete#max_menu_width = 0
+let g:deoplete#omni#input_patterns = get(g:,'deoplete#omni#input_patterns',{})
+
+" Tern
+let g:tern_request_timeout = 1
+let g:tern_request_timeout = 6000
+let g:tern#command = ['tern']
+let g:tern#arguments = [' — persistent']

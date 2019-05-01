@@ -43,14 +43,17 @@ cask 'gpg-suite'
 cask 'insomnia'
 cask 'iterm2'
 cask 'sequel-pro'
+cask 'caskroom/versions/iterm2-nightly'
+cask 'slack'
 cask 'skype'
 cask 'spotify'
 cask 'virtualbox'
 cask 'vagrant'
 
+mas 'Bear', id: 1091189122
 mas 'Cinch', id: 412529613
 mas 'DaisyDisk', id: 411643860
 mas 'Jettison', id: 447430809
-#mas 'Microsoft Remote Desktop', id: 129503466
+mas 'Microsoft Remote Desktop 10', id: 1295203466
 mas 'Pixelmator', id: 407963104
 mas 'Slack', id: 803453959

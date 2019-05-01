@@ -19,3 +19,9 @@ test -e $HOME/.asdf/completions/asdf.bash && source $HOME/.asdf/completions/asdf
 
 # Source local zsh customizations
 [ -s ~/.zshrc.local ] && source ~/.zshrc.local
+
+# User configuration
+source ~/.zsh/zshrc.local
+source ~/.zsh/exports.zsh
+source ~/.zsh/aliases.zsh
+source /Volumes/Secure/env_secrets/digitalocean_rjg

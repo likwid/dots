@@ -1,22 +1,22 @@
-# neovim
+# Neovim
 alias vim='nvim'
 
 # gcloud
 alias gcloud='~/yum/tools/google-cloud-sdk/bin/gcloud'
 alias gsutil='~/yum/tools/google-cloud-sdk/bin/gsutil'
 
-# ansible
+# Ansible
 alias ap='ansible-playbook'
 alias agx='ansible-galaxy'
 alias av='ansible-vault'
 
-# dotfiles shortcuts
+# Dotfiles shortcuts
 alias ez='vim ~/.zshrc'
 alias sz='source ~/.zshrc'
 alias aliases="cat ~/.zsh/aliases.zsh"
 alias exports="cat ~/.zsh/exports.zsh"
 
-# common
+# Common
 alias ll='ls -la'
 alias lh='ls -lah'
 alias h='history'
@@ -26,17 +26,20 @@ alias epoch='date +%s'
 alias vd='vagrant destroy -f'
 alias vu='vagrant up'
 alias brewu='brew update && brew upgrade && brew cleanup && brew prune && brew doctor'
-alias wanip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias mkdirp='mkdir -p'
 alias maketermfast='sudo rm /private/var/log/asl/*.asl'
 
-# git
+# Git
 alias glod='git log --graph --pretty="%Cgreen%h%Creset%Cblue%d%Creset %Cred%an%Creset: %s"'
 alias gap='git add -p'
 alias gpr='git pull --rebase'
 alias reset-authors='git commit --amend --reset-author -C HEAD'
 alias untrack='git update-index --assume-unchanged'
 alias track='git update-index --no-assume-unchanged'
+
+# Networking
+alias getdns='networksetup -getdnsservers Wi-Fi && scutil --dns'
+alias wanip='dig +short myip.opendns.com @resolver1.opendns.com'
 
 # Tmux
 alias tml='tmux ls'
@@ -67,13 +70,13 @@ alias unmountsecure='hdiutil eject /Volumes/Secure > /dev/null && echo "SecureVo
 alias securemount='mountsecure'
 alias secureunmount='unmountsecure'
 
-#Utility functions
+# Utility functions
 function convert_pem_to_pub {
   ssh-keygen -y -f $1 > $2
 }
 alias pem2pub=convert_pem_to_pub
 
-#Hitch for multiple git authors
+# Hitch for multiple git authors
 hitch() {
   command hitch "$@"
     if [[ -s "$HOME/.hitch_export_authors" ]] ; then source "$HOME/.hitch_export_authors" ; fi
