@@ -10,8 +10,8 @@
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
     ~/.zsh: zsh/
-    ~/.zshrc: ~/.zsh/zshrc
-    ~/.zshrc.local: ~/.zsh/zshrc.local
+    ~/.zshrc: zsh/zshrc
+    ~/.zshrc.local: zsh/zshrc.local
     ~/.oh-my-zsh: dependencies/oh-my-zsh/
     ~/.config/nvim: nvim
     ~/.config/nvim/autoload/plug.vim: dependencies/vim-plug/plug.vim

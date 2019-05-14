@@ -6,7 +6,6 @@ tap 'getantibody/tap'
 # Install Java as a prereq
 cask 'java'
 brew 'ansible'
-brew 'antibody'
 brew 'coreutils'
 brew 'editorconfig'
 brew 'elixir'
@@ -20,11 +19,9 @@ brew 'gnu-getopt'
 brew 'hub'
 brew 'libyaml'
 brew 'jq'
-brew 'ksonnet/tap/ks'
 brew 'mas'
-brew 'nodejs'
 brew 'openssl'
-brew 'rip-grep'
+brew 'ripgrep'
 brew 'tmux'
 brew 'tig'
 brew 'tree'
@@ -38,7 +35,6 @@ cask 'dash'
 cask 'dropbox-beta'
 cask 'firefox'
 cask 'keybase'
-cask 'gitter'
 cask 'google-chrome'
 cask 'google-cloud-sdk'
 cask 'iterm2'
@@ -49,5 +45,5 @@ cask 'vagrant'
 
 mas 'Cinch', id: 412529613
 mas 'DaisyDisk', id: 411643860
-mas 'Microsoft Remote Desktop', id: 129503466
+mas 'Microsoft Remote Desktop', id: 1295203466
 mas 'Pixelmator', id: 407963104
