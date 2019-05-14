@@ -42,7 +42,7 @@ insteadOf = me://
 [url "ssh://git@ghe.coxautoinc.com/"]
 insteadOf = ghe://
 
-[url "ssh://git@github.com:22/alicetechnologies"]
+[url "ssh://git@github.com:22/alicetechnologies/"]
 insteadOf = alice://
 
 [includeIf "gitdir:~/src/git.peerfit.com/"]
