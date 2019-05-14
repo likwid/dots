@@ -5,6 +5,8 @@ tap 'getantibody/tap'
 
 # Install Java as a prereq
 cask 'java'
+
+# Formulae
 brew 'ansible'
 brew 'coreutils'
 brew 'editorconfig'
@@ -28,6 +30,7 @@ brew 'tree'
 brew 'vim'
 brew 'wget'
 
+# Casks
 cask '1password'
 cask 'alfred'
 cask 'atom'
@@ -43,6 +46,8 @@ cask 'skype'
 cask 'spotify'
 cask 'vagrant'
 
+# Mac Apple Store apps
+mas 'Bear', id: 1091189122
 mas 'Cinch', id: 412529613
 mas 'DaisyDisk', id: 411643860
 mas 'Microsoft Remote Desktop', id: 1295203466
