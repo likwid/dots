@@ -40,3 +40,9 @@
     url: https://github.com/Banno/asdf-hashicorp
   - plugin: terraform
     url: https://github.com/Banno/asdf-hashicorp
+  - plugin: java
+    url: https://github.com/halcyon/asdf-java.git
+  - plugin: scala
+    url: https://github.com/mtatheonly/asdf-scala
+  - plugin: sbt
+    url: https://github.com/lerencao/asdf-sbt
