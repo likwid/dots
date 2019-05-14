@@ -20,23 +20,23 @@
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
 
-- brewfile:
-    file: Brewfile
+#- brewfile:
+#  file: Brewfile
 
 - asdf:
-    - plugin: python
-      url: https://github.com/danhper/asdf-python.git
-    - plugin: nodejs
-      url: https://github.com/asdf-vm/asdf-nodejs.git
-    - plugin: ruby
-      url: https://github.com/asdf-vm/asdf-ruby.git
-    - plugin: elixir
-      url: https://github.com/asdf-vm/asdf-elixir.git
-    - plugin: golang
-      url: https://github.com/kennyp/asdf-golang
-    - plugin: rust
-      url: https://github.com/code-lever/asdf-rust
-    - plugin: packer
-      url: https://github.com/Banno/asdf-hashicorp
-    - plugin: terraform
-      url: https://github.com/Banno/asdf-hashicorp
+  - plugin: python
+    url: https://github.com/danhper/asdf-python.git
+  - plugin: nodejs
+    url: https://github.com/asdf-vm/asdf-nodejs.git
+  - plugin: ruby
+    url: https://github.com/asdf-vm/asdf-ruby.git
+  - plugin: elixir
+    url: https://github.com/asdf-vm/asdf-elixir.git
+  - plugin: golang
+    url: https://github.com/kennyp/asdf-golang
+  - plugin: rust
+    url: https://github.com/code-lever/asdf-rust
+  - plugin: packer
+    url: https://github.com/Banno/asdf-hashicorp
+  - plugin: terraform
+    url: https://github.com/Banno/asdf-hashicorp
