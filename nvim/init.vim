@@ -104,8 +104,8 @@ map <Leader><space> :nohl<cr>
 nnoremap <Leader>j :%!cat % <bar> jq '.'<CR>
 
 " Configure python support
-let g:python_host_prog = '/usr/local/bin/python'
-let g:python3_host_prog = '/usr/local/bin/python3'
+let g:python_host_prog = '~/.asdf/shims/python'
+let g:python3_host_prog = '~/.asdf/shims/python3'
 
 " Enable Truecolor in neovim/iterm2 (Requires iterm2-nightly)
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
