@@ -9,10 +9,12 @@
     ~/.asdf: dependencies/asdf
     ~/.gitconfig: git/gitconfig
     ~/.gitignore_global: git/gitignore_global
-    ~/.zsh: zsh/
     ~/.zshrc: zsh/zshrc
     ~/.zshrc.local: zsh/zshrc.local
+    ~/.zsh_exports.zsh: zsh/exports.zsh
+    ~/.zsh_aliases.zsh: zsh/aliases.zsh
     ~/.oh-my-zsh: dependencies/oh-my-zsh/
+    ~/.zsh_custom: zsh/custom
     ~/.config/nvim: nvim
     ~/.config/nvim/autoload/plug.vim: dependencies/vim-plug/plug.vim
     ~/.tmux.conf: tmux.conf

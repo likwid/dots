@@ -13,8 +13,7 @@ alias aliases="cat ~/.zsh/aliases.zsh"
 alias exports="cat ~/.zsh/exports.zsh"
 
 # common
-alias ll='ls -la'
-alias lh='ls -lah'
+alias ll='exa --long --git --header -a'
 alias h='history'
 alias jb='jobs -l'
 alias mo='less'

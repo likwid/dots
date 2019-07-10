@@ -43,7 +43,7 @@ insteadOf = me://
 insteadOf = ghe://
 
 [url "ssh://git@github.com:22/alicetechnologies/"]
-insteadOf = alice://
+insteadOf = a://
 
 [includeIf "gitdir:~/src/git.peerfit.com/"]
 path = .gitconfig_work
