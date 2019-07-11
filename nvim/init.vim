@@ -32,6 +32,9 @@ call plug#end()
 " not vi compatible
 set nocompatible
 
+" Disable syntax highlight
+syntax off
+
 " Basic editing config
 set number
 set encoding=utf-8
