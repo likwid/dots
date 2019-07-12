@@ -62,6 +62,9 @@ alias unmountsecure='hdiutil eject /Volumes/Secure > /dev/null && echo "SecureVo
 alias securemount='mountsecure'
 alias secureunmount='unmountsecure'
 
+# sshfs tooling
+alias pairme='sshfs hoth:/home/ubuntu/src ~/remote -o auto_cache,reconnect,defer_permissions,noappledouble'
+
 #Utility functions
 function convert_pem_to_pub {
   ssh-keygen -y -f $1 > $2
