@@ -25,6 +25,3 @@
 [submodule "dependencies/dotbot-asdf"]
 	path = dependencies/dotbot-asdf
 	url = https://github.com/sobolevn/dotbot-asdf.git
-[submodule "dependencies/vim-terraform"]
-	path = dependencies/vim-terraform
-	url = https://github.com/hashivim/vim-terraform.git

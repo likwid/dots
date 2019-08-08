@@ -27,6 +27,9 @@ Plug 'mhinz/vim-mix-format'
   let g:mix_format_on_save = 1
   let g:mix_format_options = '--check-equivalent'
 
+Plug 'hashivim/vim-terraform'
+  let g:terraform_fmt_on_save=1
+
 call plug#end()
 
 " not vi compatible
