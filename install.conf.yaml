@@ -37,8 +37,6 @@
     url: https://github.com/code-lever/asdf-rust
   - plugin: packer
     url: https://github.com/Banno/asdf-hashicorp
-  - plugin: terraform
-    url: https://github.com/Banno/asdf-hashicorp
   - plugin: java
     url: https://github.com/halcyon/asdf-java.git
   - plugin: scala

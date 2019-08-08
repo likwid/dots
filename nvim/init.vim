@@ -79,20 +79,20 @@ set splitright
 set splitbelow
 
 " Disable arrow keys
-map <Left> :echo "no! Use h"<cr>
-map <Right> :echo "no! Use l"<cr>
-map <Up> :echo "no! Use k"<cr>
-map <Down> :echo "no! Use j"<cr>
-imap <Left> <nop>
-imap <Right> <nop>
-imap <Up> <nop>
-imap <Down> <nop>
+" map <Left> :echo "no! Use h"<cr>
+" map <Right> :echo "no! Use l"<cr>
+" map <Up> :echo "no! Use k"<cr>
+" map <Down> :echo "no! Use j"<cr>
+" imap <Left> <nop>
+" imap <Right> <nop>
+" imap <Up> <nop>
+" imap <Down> <nop>
 
 " Quicker window movement
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-h> <C-w>h
-nnoremap <C-l> <C-w>l
+" nnoremap <C-j> <C-w>j
+" nnoremap <C-k> <C-w>k
+" nnoremap <C-h> <C-w>h
+" nnoremap <C-l> <C-w>l
 
 " Add comma as leader
 :nmap , \
@@ -107,7 +107,7 @@ map <Leader><space> :nohl<cr>
 nnoremap <Leader>j :%!cat % <bar> jq '.'<CR>
 
 " Configure python support
-let g:python_host_prog = '~/.asdf/shims/python'
+let g:python_host_prog = '~/.asdf/shims/python2'
 let g:python3_host_prog = '~/.asdf/shims/python3'
 
 " Enable Truecolor in neovim/iterm2 (Requires iterm2-nightly)

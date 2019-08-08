@@ -22,6 +22,7 @@ unpulled = !"PROJ_BRANCH=$(git symbolic-ref HEAD | sed 's|refs/heads/||') && git
 unpushed = !"PROJ_BRANCH=$(git symbolic-ref HEAD | sed 's|refs/heads/||') && git log origin/$PROJ_BRANCH..HEAD"
 untrack = "update-index --assume-unchanged"
 yolo = "push --force origin master"
+alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
 
 [color]
 ui = true
@@ -43,7 +44,7 @@ insteadOf = me://
 insteadOf = ghe://
 
 [url "ssh://git@github.com:22/alicetechnologies/"]
-insteadOf = a://
+insteadOf = alice://
 
 [includeIf "gitdir:~/src/git.peerfit.com/"]
 path = .gitconfig_work
