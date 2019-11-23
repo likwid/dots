@@ -10,7 +10,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #PRIMARY_FG=white
 #ZSH_THEME="agnoster-light"
-ZSH_THEME=robbyrussell
+#ZSH_THEME=robbyrussell
 
 DISABLE_CORRECTION="true"
 
@@ -25,11 +25,13 @@ ZSH_CUSTOM=$HOME/.zsh_custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+#plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+#source $ZSH/oh-my-zsh.sh
 
 # User configuration
 source ~/.zshrc.local
 source ~/.zsh_exports.zsh
 source ~/.zsh_aliases.zsh
+
+eval "$(starship init zsh)"
