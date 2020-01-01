@@ -9,8 +9,8 @@ alias av='ansible-vault'
 # dotfiles shortcuts
 alias ez='vim ~/.zshrc'
 alias sz='source ~/.zshrc'
-alias aliases="cat ~/.zsh/aliases.zsh"
-alias exports="cat ~/.zsh/exports.zsh"
+alias aliases="cat ~/.zsh_aliases.zsh"
+alias exports="cat ~/.zsh_exports.zsh"
 
 # common
 alias ll='exa --long --git --header -a'

@@ -1,0 +1,5 @@
+[character]
+symbol = "λ"
+
+[hostname]
+ssh_only = true
